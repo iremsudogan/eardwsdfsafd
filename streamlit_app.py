@@ -24,6 +24,7 @@ class CustomLabelEncoder(BaseEstimator, TransformerMixin):
             X[col] = encoder.transform(X[col])
         return X
 
+
 class FeaturesAdder(BaseEstimator, TransformerMixin):
     def __init__(self):
         pass
